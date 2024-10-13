@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alif Shop</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/alif__favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="loader container"></div>
+    <header class="container">
+      <img
+        class="header"
+        src="./images/alifshop-logo.svg"
+        alt="alifshop-logo"
+      />
+      <div class="header__catalog">
+        <div class="gamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <p class="header__catalog-text">Tovarlar katalogi</p>
+      </div>
+      <div class="search">
+        <input placeholder="Tovarlarni izlash" type="text" />
+
+        <div class="search__img">
+          <img
+            src="./images/—Pngtree—vector search icon_4184112.png"
+            alt="lupa"
+          />
+        </div>
+      </div>
+      <div class="savat">
+        <img
+          src="./images/shop-card.png"
+          alt="shop-card"
+          class="savat__img img"
+        />
+        <!-- <p>Savat</p> -->
+      </div>
+      <div class="favourite">
+        <img class="img" src="./images/favourite.png" alt="favourite-img img" />
+        <!-- <p>Saralanganlar</p> -->
+      </div>
+      <div class="registration">Kirish</div>
+    </header>
+    <nav class="container">
+      <ul class="nav__list"></ul>
+    </nav>
+    <div class="div slider container">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/slider__1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slider__2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slider__3.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="product__card container wrapper">
+      <!-- <div class="card">
+        <img src="./images/card__ing.webp" alt="" />
+        <p class="card__name">iphone 16</p>
+        <p class="card__title"><i>Lorem ipsum dolor sit amet.</i></p>
+        <p class="credit">oyiga 120 dan</p>
+        <p class="prise"><del>1 000 000 som</del></p>
+        <p class="action__prise">800 000 so'm</p>
+        <div class="basket">Savatga</div>
+      </div> -->
+    </div>
+    <div class="container" style="text-align: center">
+      <button class="btn">See more</button>
+    </div>
+
+    <!-- loading -->
+
+    <script src="./main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
